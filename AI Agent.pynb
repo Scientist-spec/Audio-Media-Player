@@ -1,0 +1,1081 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN/EJkGuhyPqhRo4lIwLiw5",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "8aa918d2199e46e08db01efe70efd877": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_46a67e9844084d69a818a9ae3dcc9d75",
+              "IPY_MODEL_73709ff67c59440681f0d0e3790e0bff",
+              "IPY_MODEL_85f0975fc4ae4d8d8a6f7d1c9802c84e"
+            ],
+            "layout": "IPY_MODEL_5099caae28c040e7ba0d0b70e8716c74"
+          }
+        },
+        "46a67e9844084d69a818a9ae3dcc9d75": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_946f18493473422f8807c9b370396570",
+            "placeholder": "​",
+            "style": "IPY_MODEL_defb891f669f4021bd9bf010b84d11a2",
+            "value": "theme_schema%400.0.1.json: 100%"
+          }
+        },
+        "73709ff67c59440681f0d0e3790e0bff": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "success",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_4a2662d2a1744d92824a16ee95be4cd5",
+            "max": 12551,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_9e966190f7524b599b95d2e7c586d11f",
+            "value": 12551
+          }
+        },
+        "85f0975fc4ae4d8d8a6f7d1c9802c84e": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_53db03f3ca6c48489a9884d4993a0d5e",
+            "placeholder": "​",
+            "style": "IPY_MODEL_ae4c255b0bee4bf3812da3553eeec1dd",
+            "value": " 12.6k/12.6k [00:00&lt;00:00, 1.02MB/s]"
+          }
+        },
+        "5099caae28c040e7ba0d0b70e8716c74": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "946f18493473422f8807c9b370396570": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "defb891f669f4021bd9bf010b84d11a2": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "4a2662d2a1744d92824a16ee95be4cd5": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "9e966190f7524b599b95d2e7c586d11f": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        },
+        "53db03f3ca6c48489a9884d4993a0d5e": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "ae4c255b0bee4bf3812da3553eeec1dd": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Scientist-spec/Audio-Media-Player/blob/main/AI%20Agent.pynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yxz2USS2t0_Q",
+        "outputId": "c55ab55e-2c17-468d-d230-4e059e1ac9c4"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Requirement already satisfied: langchain in /usr/local/lib/python3.11/dist-packages (0.3.25)\n",
+            "Requirement already satisfied: langchain_core in /usr/local/lib/python3.11/dist-packages (0.3.60)\n",
+            "Collecting langchain_groq\n",
+            "  Downloading langchain_groq-0.3.2-py3-none-any.whl.metadata (2.6 kB)\n",
+            "Collecting langchain_community\n",
+            "  Downloading langchain_community-0.3.24-py3-none-any.whl.metadata (2.5 kB)\n",
+            "Requirement already satisfied: langchain-text-splitters<1.0.0,>=0.3.8 in /usr/local/lib/python3.11/dist-packages (from langchain) (0.3.8)\n",
+            "Requirement already satisfied: langsmith<0.4,>=0.1.17 in /usr/local/lib/python3.11/dist-packages (from langchain) (0.3.42)\n",
+            "Requirement already satisfied: pydantic<3.0.0,>=2.7.4 in /usr/local/lib/python3.11/dist-packages (from langchain) (2.11.4)\n",
+            "Requirement already satisfied: SQLAlchemy<3,>=1.4 in /usr/local/lib/python3.11/dist-packages (from langchain) (2.0.41)\n",
+            "Requirement already satisfied: requests<3,>=2 in /usr/local/lib/python3.11/dist-packages (from langchain) (2.32.3)\n",
+            "Requirement already satisfied: PyYAML>=5.3 in /usr/local/lib/python3.11/dist-packages (from langchain) (6.0.2)\n",
+            "Requirement already satisfied: tenacity!=8.4.0,<10.0.0,>=8.1.0 in /usr/local/lib/python3.11/dist-packages (from langchain_core) (9.1.2)\n",
+            "Requirement already satisfied: jsonpatch<2.0,>=1.33 in /usr/local/lib/python3.11/dist-packages (from langchain_core) (1.33)\n",
+            "Requirement already satisfied: packaging<25,>=23.2 in /usr/local/lib/python3.11/dist-packages (from langchain_core) (24.2)\n",
+            "Requirement already satisfied: typing-extensions>=4.7 in /usr/local/lib/python3.11/dist-packages (from langchain_core) (4.13.2)\n",
+            "Collecting groq<1,>=0.4.1 (from langchain_groq)\n",
+            "  Downloading groq-0.25.0-py3-none-any.whl.metadata (15 kB)\n",
+            "Requirement already satisfied: aiohttp<4.0.0,>=3.8.3 in /usr/local/lib/python3.11/dist-packages (from langchain_community) (3.11.15)\n",
+            "Collecting dataclasses-json<0.7,>=0.5.7 (from langchain_community)\n",
+            "  Downloading dataclasses_json-0.6.7-py3-none-any.whl.metadata (25 kB)\n",
+            "Collecting pydantic-settings<3.0.0,>=2.4.0 (from langchain_community)\n",
+            "  Downloading pydantic_settings-2.9.1-py3-none-any.whl.metadata (3.8 kB)\n",
+            "Collecting httpx-sse<1.0.0,>=0.4.0 (from langchain_community)\n",
+            "  Downloading httpx_sse-0.4.0-py3-none-any.whl.metadata (9.0 kB)\n",
+            "Requirement already satisfied: numpy>=1.26.2 in /usr/local/lib/python3.11/dist-packages (from langchain_community) (2.0.2)\n",
+            "Requirement already satisfied: aiohappyeyeballs>=2.3.0 in /usr/local/lib/python3.11/dist-packages (from aiohttp<4.0.0,>=3.8.3->langchain_community) (2.6.1)\n",
+            "Requirement already satisfied: aiosignal>=1.1.2 in /usr/local/lib/python3.11/dist-packages (from aiohttp<4.0.0,>=3.8.3->langchain_community) (1.3.2)\n",
+            "Requirement already satisfied: attrs>=17.3.0 in /usr/local/lib/python3.11/dist-packages (from aiohttp<4.0.0,>=3.8.3->langchain_community) (25.3.0)\n",
+            "Requirement already satisfied: frozenlist>=1.1.1 in /usr/local/lib/python3.11/dist-packages (from aiohttp<4.0.0,>=3.8.3->langchain_community) (1.6.0)\n",
+            "Requirement already satisfied: multidict<7.0,>=4.5 in /usr/local/lib/python3.11/dist-packages (from aiohttp<4.0.0,>=3.8.3->langchain_community) (6.4.4)\n",
+            "Requirement already satisfied: propcache>=0.2.0 in /usr/local/lib/python3.11/dist-packages (from aiohttp<4.0.0,>=3.8.3->langchain_community) (0.3.1)\n",
+            "Requirement already satisfied: yarl<2.0,>=1.17.0 in /usr/local/lib/python3.11/dist-packages (from aiohttp<4.0.0,>=3.8.3->langchain_community) (1.20.0)\n",
+            "Collecting marshmallow<4.0.0,>=3.18.0 (from dataclasses-json<0.7,>=0.5.7->langchain_community)\n",
+            "  Downloading marshmallow-3.26.1-py3-none-any.whl.metadata (7.3 kB)\n",
+            "Collecting typing-inspect<1,>=0.4.0 (from dataclasses-json<0.7,>=0.5.7->langchain_community)\n",
+            "  Downloading typing_inspect-0.9.0-py3-none-any.whl.metadata (1.5 kB)\n",
+            "Requirement already satisfied: anyio<5,>=3.5.0 in /usr/local/lib/python3.11/dist-packages (from groq<1,>=0.4.1->langchain_groq) (4.9.0)\n",
+            "Requirement already satisfied: distro<2,>=1.7.0 in /usr/local/lib/python3.11/dist-packages (from groq<1,>=0.4.1->langchain_groq) (1.9.0)\n",
+            "Requirement already satisfied: httpx<1,>=0.23.0 in /usr/local/lib/python3.11/dist-packages (from groq<1,>=0.4.1->langchain_groq) (0.28.1)\n",
+            "Requirement already satisfied: sniffio in /usr/local/lib/python3.11/dist-packages (from groq<1,>=0.4.1->langchain_groq) (1.3.1)\n",
+            "Requirement already satisfied: jsonpointer>=1.9 in /usr/local/lib/python3.11/dist-packages (from jsonpatch<2.0,>=1.33->langchain_core) (3.0.0)\n",
+            "Requirement already satisfied: orjson<4.0.0,>=3.9.14 in /usr/local/lib/python3.11/dist-packages (from langsmith<0.4,>=0.1.17->langchain) (3.10.18)\n",
+            "Requirement already satisfied: requests-toolbelt<2.0.0,>=1.0.0 in /usr/local/lib/python3.11/dist-packages (from langsmith<0.4,>=0.1.17->langchain) (1.0.0)\n",
+            "Requirement already satisfied: zstandard<0.24.0,>=0.23.0 in /usr/local/lib/python3.11/dist-packages (from langsmith<0.4,>=0.1.17->langchain) (0.23.0)\n",
+            "Requirement already satisfied: annotated-types>=0.6.0 in /usr/local/lib/python3.11/dist-packages (from pydantic<3.0.0,>=2.7.4->langchain) (0.7.0)\n",
+            "Requirement already satisfied: pydantic-core==2.33.2 in /usr/local/lib/python3.11/dist-packages (from pydantic<3.0.0,>=2.7.4->langchain) (2.33.2)\n",
+            "Requirement already satisfied: typing-inspection>=0.4.0 in /usr/local/lib/python3.11/dist-packages (from pydantic<3.0.0,>=2.7.4->langchain) (0.4.1)\n",
+            "Collecting python-dotenv>=0.21.0 (from pydantic-settings<3.0.0,>=2.4.0->langchain_community)\n",
+            "  Downloading python_dotenv-1.1.0-py3-none-any.whl.metadata (24 kB)\n",
+            "Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.11/dist-packages (from requests<3,>=2->langchain) (3.4.2)\n",
+            "Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.11/dist-packages (from requests<3,>=2->langchain) (3.10)\n",
+            "Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.11/dist-packages (from requests<3,>=2->langchain) (2.4.0)\n",
+            "Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.11/dist-packages (from requests<3,>=2->langchain) (2025.4.26)\n",
+            "Requirement already satisfied: greenlet>=1 in /usr/local/lib/python3.11/dist-packages (from SQLAlchemy<3,>=1.4->langchain) (3.2.2)\n",
+            "Requirement already satisfied: httpcore==1.* in /usr/local/lib/python3.11/dist-packages (from httpx<1,>=0.23.0->groq<1,>=0.4.1->langchain_groq) (1.0.9)\n",
+            "Requirement already satisfied: h11>=0.16 in /usr/local/lib/python3.11/dist-packages (from httpcore==1.*->httpx<1,>=0.23.0->groq<1,>=0.4.1->langchain_groq) (0.16.0)\n",
+            "Collecting mypy-extensions>=0.3.0 (from typing-inspect<1,>=0.4.0->dataclasses-json<0.7,>=0.5.7->langchain_community)\n",
+            "  Downloading mypy_extensions-1.1.0-py3-none-any.whl.metadata (1.1 kB)\n",
+            "Downloading langchain_groq-0.3.2-py3-none-any.whl (15 kB)\n",
+            "Downloading langchain_community-0.3.24-py3-none-any.whl (2.5 MB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.5/2.5 MB\u001b[0m \u001b[31m27.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading dataclasses_json-0.6.7-py3-none-any.whl (28 kB)\n",
+            "Downloading groq-0.25.0-py3-none-any.whl (129 kB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m129.4/129.4 kB\u001b[0m \u001b[31m7.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading httpx_sse-0.4.0-py3-none-any.whl (7.8 kB)\n",
+            "Downloading pydantic_settings-2.9.1-py3-none-any.whl (44 kB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m44.4/44.4 kB\u001b[0m \u001b[31m2.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading marshmallow-3.26.1-py3-none-any.whl (50 kB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m50.9/50.9 kB\u001b[0m \u001b[31m2.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading python_dotenv-1.1.0-py3-none-any.whl (20 kB)\n",
+            "Downloading typing_inspect-0.9.0-py3-none-any.whl (8.8 kB)\n",
+            "Downloading mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)\n",
+            "Installing collected packages: python-dotenv, mypy-extensions, marshmallow, httpx-sse, typing-inspect, pydantic-settings, groq, dataclasses-json, langchain_groq, langchain_community\n",
+            "Successfully installed dataclasses-json-0.6.7 groq-0.25.0 httpx-sse-0.4.0 langchain_community-0.3.24 langchain_groq-0.3.2 marshmallow-3.26.1 mypy-extensions-1.1.0 pydantic-settings-2.9.1 python-dotenv-1.1.0 typing-inspect-0.9.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "!pip install langchain langchain_core langchain_groq langchain_community langchain"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install langchain langgraph"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "E6Bx0j26uZIH",
+        "outputId": "f070c33f-3458-422e-9dae-f513951f6da0"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Requirement already satisfied: langchain in /usr/local/lib/python3.11/dist-packages (0.3.25)\n",
+            "Collecting langgraph\n",
+            "  Downloading langgraph-0.4.7-py3-none-any.whl.metadata (6.8 kB)\n",
+            "Requirement already satisfied: langchain-core<1.0.0,>=0.3.58 in /usr/local/lib/python3.11/dist-packages (from langchain) (0.3.60)\n",
+            "Requirement already satisfied: langchain-text-splitters<1.0.0,>=0.3.8 in /usr/local/lib/python3.11/dist-packages (from langchain) (0.3.8)\n",
+            "Requirement already satisfied: langsmith<0.4,>=0.1.17 in /usr/local/lib/python3.11/dist-packages (from langchain) (0.3.42)\n",
+            "Requirement already satisfied: pydantic<3.0.0,>=2.7.4 in /usr/local/lib/python3.11/dist-packages (from langchain) (2.11.4)\n",
+            "Requirement already satisfied: SQLAlchemy<3,>=1.4 in /usr/local/lib/python3.11/dist-packages (from langchain) (2.0.41)\n",
+            "Requirement already satisfied: requests<3,>=2 in /usr/local/lib/python3.11/dist-packages (from langchain) (2.32.3)\n",
+            "Requirement already satisfied: PyYAML>=5.3 in /usr/local/lib/python3.11/dist-packages (from langchain) (6.0.2)\n",
+            "Collecting langgraph-checkpoint>=2.0.26 (from langgraph)\n",
+            "  Downloading langgraph_checkpoint-2.0.26-py3-none-any.whl.metadata (4.6 kB)\n",
+            "Collecting langgraph-prebuilt>=0.2.0 (from langgraph)\n",
+            "  Downloading langgraph_prebuilt-0.2.2-py3-none-any.whl.metadata (4.5 kB)\n",
+            "Collecting langgraph-sdk>=0.1.42 (from langgraph)\n",
+            "  Downloading langgraph_sdk-0.1.70-py3-none-any.whl.metadata (1.5 kB)\n",
+            "Requirement already satisfied: xxhash>=3.5.0 in /usr/local/lib/python3.11/dist-packages (from langgraph) (3.5.0)\n",
+            "Requirement already satisfied: tenacity!=8.4.0,<10.0.0,>=8.1.0 in /usr/local/lib/python3.11/dist-packages (from langchain-core<1.0.0,>=0.3.58->langchain) (9.1.2)\n",
+            "Requirement already satisfied: jsonpatch<2.0,>=1.33 in /usr/local/lib/python3.11/dist-packages (from langchain-core<1.0.0,>=0.3.58->langchain) (1.33)\n",
+            "Requirement already satisfied: packaging<25,>=23.2 in /usr/local/lib/python3.11/dist-packages (from langchain-core<1.0.0,>=0.3.58->langchain) (24.2)\n",
+            "Requirement already satisfied: typing-extensions>=4.7 in /usr/local/lib/python3.11/dist-packages (from langchain-core<1.0.0,>=0.3.58->langchain) (4.13.2)\n",
+            "Collecting ormsgpack<2.0.0,>=1.8.0 (from langgraph-checkpoint>=2.0.26->langgraph)\n",
+            "  Downloading ormsgpack-1.10.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (43 kB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m43.7/43.7 kB\u001b[0m \u001b[31m1.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hRequirement already satisfied: httpx>=0.25.2 in /usr/local/lib/python3.11/dist-packages (from langgraph-sdk>=0.1.42->langgraph) (0.28.1)\n",
+            "Requirement already satisfied: orjson>=3.10.1 in /usr/local/lib/python3.11/dist-packages (from langgraph-sdk>=0.1.42->langgraph) (3.10.18)\n",
+            "Requirement already satisfied: requests-toolbelt<2.0.0,>=1.0.0 in /usr/local/lib/python3.11/dist-packages (from langsmith<0.4,>=0.1.17->langchain) (1.0.0)\n",
+            "Requirement already satisfied: zstandard<0.24.0,>=0.23.0 in /usr/local/lib/python3.11/dist-packages (from langsmith<0.4,>=0.1.17->langchain) (0.23.0)\n",
+            "Requirement already satisfied: annotated-types>=0.6.0 in /usr/local/lib/python3.11/dist-packages (from pydantic<3.0.0,>=2.7.4->langchain) (0.7.0)\n",
+            "Requirement already satisfied: pydantic-core==2.33.2 in /usr/local/lib/python3.11/dist-packages (from pydantic<3.0.0,>=2.7.4->langchain) (2.33.2)\n",
+            "Requirement already satisfied: typing-inspection>=0.4.0 in /usr/local/lib/python3.11/dist-packages (from pydantic<3.0.0,>=2.7.4->langchain) (0.4.1)\n",
+            "Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.11/dist-packages (from requests<3,>=2->langchain) (3.4.2)\n",
+            "Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.11/dist-packages (from requests<3,>=2->langchain) (3.10)\n",
+            "Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.11/dist-packages (from requests<3,>=2->langchain) (2.4.0)\n",
+            "Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.11/dist-packages (from requests<3,>=2->langchain) (2025.4.26)\n",
+            "Requirement already satisfied: greenlet>=1 in /usr/local/lib/python3.11/dist-packages (from SQLAlchemy<3,>=1.4->langchain) (3.2.2)\n",
+            "Requirement already satisfied: anyio in /usr/local/lib/python3.11/dist-packages (from httpx>=0.25.2->langgraph-sdk>=0.1.42->langgraph) (4.9.0)\n",
+            "Requirement already satisfied: httpcore==1.* in /usr/local/lib/python3.11/dist-packages (from httpx>=0.25.2->langgraph-sdk>=0.1.42->langgraph) (1.0.9)\n",
+            "Requirement already satisfied: h11>=0.16 in /usr/local/lib/python3.11/dist-packages (from httpcore==1.*->httpx>=0.25.2->langgraph-sdk>=0.1.42->langgraph) (0.16.0)\n",
+            "Requirement already satisfied: jsonpointer>=1.9 in /usr/local/lib/python3.11/dist-packages (from jsonpatch<2.0,>=1.33->langchain-core<1.0.0,>=0.3.58->langchain) (3.0.0)\n",
+            "Requirement already satisfied: sniffio>=1.1 in /usr/local/lib/python3.11/dist-packages (from anyio->httpx>=0.25.2->langgraph-sdk>=0.1.42->langgraph) (1.3.1)\n",
+            "Downloading langgraph-0.4.7-py3-none-any.whl (154 kB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m154.9/154.9 kB\u001b[0m \u001b[31m5.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading langgraph_checkpoint-2.0.26-py3-none-any.whl (44 kB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m44.2/44.2 kB\u001b[0m \u001b[31m2.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading langgraph_prebuilt-0.2.2-py3-none-any.whl (23 kB)\n",
+            "Downloading langgraph_sdk-0.1.70-py3-none-any.whl (49 kB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m50.0/50.0 kB\u001b[0m \u001b[31m2.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading ormsgpack-1.10.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (216 kB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m216.5/216.5 kB\u001b[0m \u001b[31m12.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hInstalling collected packages: ormsgpack, langgraph-sdk, langgraph-checkpoint, langgraph-prebuilt, langgraph\n",
+            "Successfully installed langgraph-0.4.7 langgraph-checkpoint-2.0.26 langgraph-prebuilt-0.2.2 langgraph-sdk-0.1.70 ormsgpack-1.10.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import os\n",
+        "from typing import TypedDict, Annotated, List\n",
+        "from langgraph.graph import StateGraph, END\n",
+        "from langchain_core.messages import HumanMessage,AIMessage\n",
+        "from langchain_core.prompts import ChatMessagePromptTemplate\n",
+        "from langchain_core.runnables.graph import MermaidDrawMethod\n",
+        "from IPython.display import Image, display"
+      ],
+      "metadata": {
+        "id": "J0QDvCu5uqxV"
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class PlannerState(TypedDict):\n",
+        "  messages : Annotated[List[HumanMessage | AIMessage], \"the messages in the conversation\"]\n",
+        "  city: str\n",
+        "  interests: List[str]\n",
+        "  itinerary: str"
+      ],
+      "metadata": {
+        "id": "JksYeO2gwQj_"
+      },
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from langchain_groq import ChatGroq\n",
+        "llm = ChatGroq(temperature=0,groq_api_key=\"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\",model_name = \"llama-3.3-70b-versatile\")\n",
+        "result = llm.invoke(\"What is Multi AI Agent\")\n",
+        "result.content"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 209
+        },
+        "id": "7z1NCSHUyMhO",
+        "outputId": "89d9e0b1-6721-4c10-a8ee-7081106bb471"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'A Multi-Agent System (MAS) is a system composed of multiple autonomous agents that interact with each other and their environment to achieve common or individual goals. In the context of Artificial Intelligence (AI), a Multi-AI Agent refers to a system that consists of multiple AI agents that work together to solve complex problems, make decisions, or perform tasks.\\n\\nCharacteristics of Multi-AI Agents:\\n\\n1. **Autonomy**: Each AI agent has its own autonomy to make decisions and take actions.\\n2. **Interactions**: AI agents interact with each other, sharing information, coordinating actions, and negotiating goals.\\n3. **Distributed Problem-Solving**: Multiple AI agents work together to solve complex problems that are difficult or impossible for a single agent to solve.\\n4. **Decentralized Decision-Making**: Decision-making is distributed among the AI agents, allowing for more flexible and adaptive problem-solving.\\n\\nTypes of Multi-AI Agents:\\n\\n1. **Cooperative Agents**: Agents work together to achieve a common goal, sharing resources and expertise.\\n2. **Competitive Agents**: Agents compete with each other to achieve individual goals, often in a game-like setting.\\n3. **Hybrid Agents**: Agents combine cooperative and competitive behaviors to achieve both individual and collective goals.\\n\\nApplications of Multi-AI Agents:\\n\\n1. **Robotics**: Multi-robot systems that work together to perform tasks such as search and rescue, or assembly.\\n2. **Smart Grids**: Multiple AI agents manage energy distribution, predicting energy demand and optimizing energy supply.\\n3. **Financial Markets**: AI agents trade and negotiate with each other to optimize portfolio performance.\\n4. **Healthcare**: AI agents analyze medical data, diagnose diseases, and develop personalized treatment plans.\\n5. **Transportation Systems**: AI agents manage traffic flow, optimize routes, and coordinate logistics.\\n\\nBenefits of Multi-AI Agents:\\n\\n1. **Improved Problem-Solving**: Multiple AI agents can solve complex problems more effectively than a single agent.\\n2. **Increased Flexibility**: Multi-AI agents can adapt to changing environments and goals.\\n3. **Enhanced Robustness**: The system can continue to function even if one or more agents fail.\\n4. **Better Decision-Making**: Distributed decision-making can lead to more informed and nuanced decision-making.\\n\\nChallenges of Multi-AI Agents:\\n\\n1. **Communication**: AI agents must communicate effectively to coordinate actions and share information.\\n2. **Coordination**: Agents must coordinate their actions to achieve common goals.\\n3. **Conflict Resolution**: Agents may have conflicting goals or interests, requiring mechanisms for conflict resolution.\\n4. **Scalability**: As the number of agents increases, the system can become more complex and difficult to manage.\\n\\nIn summary, Multi-AI Agents are systems composed of multiple autonomous AI agents that work together to achieve common or individual goals. They have the potential to solve complex problems, make decisions, and perform tasks more effectively than a single AI agent. However, they also present challenges such as communication, coordination, conflict resolution, and scalability.'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from langchain.prompts.chat import ChatPromptTemplate"
+      ],
+      "metadata": {
+        "id": "au-bqDkU2lZQ"
+      },
+      "execution_count": 11,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "itinerary_prompt = ChatPromptTemplate.from_messages([\n",
+        "    (\"system\", \"You are a helpful travel assistant. create a day trip itinerary for {city} based on the users interests: {interests}. Provide a brief, bulleted itinerary.\"),\n",
+        "    (\"human\", \"Create an itinerary for my day trip.\"),\n",
+        "\n",
+        "])"
+      ],
+      "metadata": {
+        "id": "V5fjK-1gzdLo"
+      },
+      "execution_count": 12,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def input_city(state: PlannerState) -> PlannerState:\n",
+        "   print(\"Please enter the city you want to visit for your day trip: \")\n",
+        "   user_message = input(\"Your Input: \")\n",
+        "   return {\n",
+        "       **state,\n",
+        "       \"city\": user_message,\n",
+        "       \"messages\": state[\"messages\"] + [HumanMessage(content=user_message)]\n",
+        "   }\n",
+        "\n",
+        "\n",
+        "def input_interest(state: PlannerState) -> PlannerState:\n",
+        "   print(f\"Please enter your interest for the trip to: {state['city']} (comma-separated): \")\n",
+        "   user_message = input(\"Your Input: \")\n",
+        "   return {\n",
+        "       **state,\n",
+        "       \"city\": user_message,\n",
+        "       \"interests\" : [interest.strip() for interest in user_message.split(\",\")],\n",
+        "       \"messages\": state[\"messages\"] + [HumanMessage(content=user_message)]\n",
+        "   }\n",
+        "\n",
+        "def create_itinerary(state: PlannerState) -> PlannerState:\n",
+        "   print(f\"create an itinerary for {state['city']} based on interests : {', ' .join(state['interests'])})\"),\n",
+        "   response = llm.invoke(itinerary_prompt.format_prompt(city=state[\"city\"], interests=\", \".join(state[\"interests\"])).to_messages())\n",
+        "   print(\"\\nFinal Itinerary:\")\n",
+        "   print(response.content)\n",
+        "   return {\n",
+        "       **state,\n",
+        "       \"messages\": state[\"messages\"] + [AIMessage(content=response.content)],\n",
+        "       \"itinerary\": response.content,\n",
+        "   }\n",
+        ""
+      ],
+      "metadata": {
+        "id": "im60NHBX2rez"
+      },
+      "execution_count": 14,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "workflow = StateGraph(PlannerState)\n",
+        "\n",
+        "workflow.add_node(\"input_city\",input_city)\n",
+        "workflow.add_node(\"input_interest\",input_interest)\n",
+        "workflow.add_node(\"create_itinerary\",create_itinerary)\n",
+        "\n",
+        "workflow.set_entry_point(\"input_city\")\n",
+        "\n",
+        "workflow.add_edge(\"input_city\",\"input_interest\")\n",
+        "workflow.add_edge(\"input_interest\",\"create_itinerary\")\n",
+        "workflow.add_edge(\"create_itinerary\",END)\n",
+        "\n",
+        "app=workflow.compile()"
+      ],
+      "metadata": {
+        "id": "4qzoLnu63cJ9"
+      },
+      "execution_count": 15,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "display(\n",
+        "    Image(\n",
+        "        app.get_graph().draw_mermaid_png(\n",
+        "            draw_method=MermaidDrawMethod.API\n",
+        "    )\n",
+        ")\n",
+        "\n",
+        ")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 449
+        },
+        "id": "ASCjJLpg7YLh",
+        "outputId": "5ce3611d-257d-4edb-dc7b-e93a1be3d0e3"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "image/png": "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\n",
+            "text/plain": [
+              "<IPython.core.display.Image object>"
+            ]
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def travel_planner(user_request: str):\n",
+        "  print(f\"Intial request: {user_request}\\n\")\n",
+        "  state = {\n",
+        "      \"messages\": [HumanMessage(content=user_request)],\n",
+        "      \"city\": \"\",\n",
+        "      \"interests\": [],\n",
+        "      \"itinerary\": \"\",\n",
+        "  }\n",
+        "  for output in app.stream(state):\n",
+        "    pass"
+      ],
+      "metadata": {
+        "id": "8epRB3wb8D8a"
+      },
+      "execution_count": 17,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "user_request = \"I want to plan a day trip\"\n",
+        "travel_planner(user_request)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xGRLCFHlGDy8",
+        "outputId": "6fa9096d-e15d-4da2-c833-0732ea46fc6b"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Intial request: I want to plan a day trip\n",
+            "\n",
+            "Please enter the city you want to visit for your day trip: \n",
+            "Your Input: Delhi\n",
+            "Please enter your interest for the trip to: Delhi (comma-separated): \n",
+            "Your Input: Lotus Temple Connaught Place Chandani chowk India Gate Rashtrapati Bhawan \n",
+            "create an itinerary for Lotus Temple Connaught Place Chandani chowk India Gate Rashtrapati Bhawan  based on interests : Lotus Temple Connaught Place Chandani chowk India Gate Rashtrapati Bhawan)\n",
+            "\n",
+            "Final Itinerary:\n",
+            "Here's a brief, bulleted itinerary for your day trip to Delhi, covering the attractions you're interested in:\n",
+            "\n",
+            "* 9:00 AM - 10:00 AM: Visit the **Lotus Temple**, a beautiful Bahai temple famous for its unique architecture.\n",
+            "* 11:00 AM - 1:00 PM: Explore **Connaught Place**, a popular shopping and dining hub with a rich history and colonial architecture.\n",
+            "* 1:00 PM - 2:30 PM: Take a break for lunch at a local restaurant in Connaught Place.\n",
+            "* 3:00 PM - 5:00 PM: Visit **Chandni Chowk**, one of the oldest and busiest markets in India, and try some street food.\n",
+            "* 5:30 PM - 6:30 PM: Stop by **India Gate**, a war memorial and a symbol of India's independence.\n",
+            "* 7:00 PM - 8:00 PM: Visit **Rashtrapati Bhawan**, the official residence of the President of India, and take a stroll around the beautiful Mughal Gardens (if open to the public).\n",
+            "\n",
+            "This itinerary should give you a good balance of culture, history, and entertainment, and help you make the most of your day trip to Delhi.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install gradio"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DZC7fUdAG6Jt",
+        "outputId": "804e445a-aa9e-4a6b-ab11-33fb3d3c7eaf"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Collecting gradio\n",
+            "  Downloading gradio-5.31.0-py3-none-any.whl.metadata (16 kB)\n",
+            "Collecting aiofiles<25.0,>=22.0 (from gradio)\n",
+            "  Downloading aiofiles-24.1.0-py3-none-any.whl.metadata (10 kB)\n",
+            "Requirement already satisfied: anyio<5.0,>=3.0 in /usr/local/lib/python3.11/dist-packages (from gradio) (4.9.0)\n",
+            "Collecting fastapi<1.0,>=0.115.2 (from gradio)\n",
+            "  Downloading fastapi-0.115.12-py3-none-any.whl.metadata (27 kB)\n",
+            "Collecting ffmpy (from gradio)\n",
+            "  Downloading ffmpy-0.5.0-py3-none-any.whl.metadata (3.0 kB)\n",
+            "Collecting gradio-client==1.10.1 (from gradio)\n",
+            "  Downloading gradio_client-1.10.1-py3-none-any.whl.metadata (7.1 kB)\n",
+            "Collecting groovy~=0.1 (from gradio)\n",
+            "  Downloading groovy-0.1.2-py3-none-any.whl.metadata (6.1 kB)\n",
+            "Requirement already satisfied: httpx>=0.24.1 in /usr/local/lib/python3.11/dist-packages (from gradio) (0.28.1)\n",
+            "Requirement already satisfied: huggingface-hub>=0.28.1 in /usr/local/lib/python3.11/dist-packages (from gradio) (0.31.4)\n",
+            "Requirement already satisfied: jinja2<4.0 in /usr/local/lib/python3.11/dist-packages (from gradio) (3.1.6)\n",
+            "Requirement already satisfied: markupsafe<4.0,>=2.0 in /usr/local/lib/python3.11/dist-packages (from gradio) (3.0.2)\n",
+            "Requirement already satisfied: numpy<3.0,>=1.0 in /usr/local/lib/python3.11/dist-packages (from gradio) (2.0.2)\n",
+            "Requirement already satisfied: orjson~=3.0 in /usr/local/lib/python3.11/dist-packages (from gradio) (3.10.18)\n",
+            "Requirement already satisfied: packaging in /usr/local/lib/python3.11/dist-packages (from gradio) (24.2)\n",
+            "Requirement already satisfied: pandas<3.0,>=1.0 in /usr/local/lib/python3.11/dist-packages (from gradio) (2.2.2)\n",
+            "Requirement already satisfied: pillow<12.0,>=8.0 in /usr/local/lib/python3.11/dist-packages (from gradio) (11.2.1)\n",
+            "Requirement already satisfied: pydantic<2.12,>=2.0 in /usr/local/lib/python3.11/dist-packages (from gradio) (2.11.4)\n",
+            "Collecting pydub (from gradio)\n",
+            "  Downloading pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)\n",
+            "Collecting python-multipart>=0.0.18 (from gradio)\n",
+            "  Downloading python_multipart-0.0.20-py3-none-any.whl.metadata (1.8 kB)\n",
+            "Requirement already satisfied: pyyaml<7.0,>=5.0 in /usr/local/lib/python3.11/dist-packages (from gradio) (6.0.2)\n",
+            "Collecting ruff>=0.9.3 (from gradio)\n",
+            "  Downloading ruff-0.11.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)\n",
+            "Collecting safehttpx<0.2.0,>=0.1.6 (from gradio)\n",
+            "  Downloading safehttpx-0.1.6-py3-none-any.whl.metadata (4.2 kB)\n",
+            "Collecting semantic-version~=2.0 (from gradio)\n",
+            "  Downloading semantic_version-2.10.0-py2.py3-none-any.whl.metadata (9.7 kB)\n",
+            "Collecting starlette<1.0,>=0.40.0 (from gradio)\n",
+            "  Downloading starlette-0.47.0-py3-none-any.whl.metadata (6.2 kB)\n",
+            "Collecting tomlkit<0.14.0,>=0.12.0 (from gradio)\n",
+            "  Downloading tomlkit-0.13.2-py3-none-any.whl.metadata (2.7 kB)\n",
+            "Requirement already satisfied: typer<1.0,>=0.12 in /usr/local/lib/python3.11/dist-packages (from gradio) (0.15.3)\n",
+            "Requirement already satisfied: typing-extensions~=4.0 in /usr/local/lib/python3.11/dist-packages (from gradio) (4.13.2)\n",
+            "Collecting uvicorn>=0.14.0 (from gradio)\n",
+            "  Downloading uvicorn-0.34.2-py3-none-any.whl.metadata (6.5 kB)\n",
+            "Requirement already satisfied: fsspec in /usr/local/lib/python3.11/dist-packages (from gradio-client==1.10.1->gradio) (2025.3.2)\n",
+            "Requirement already satisfied: websockets<16.0,>=10.0 in /usr/local/lib/python3.11/dist-packages (from gradio-client==1.10.1->gradio) (15.0.1)\n",
+            "Requirement already satisfied: idna>=2.8 in /usr/local/lib/python3.11/dist-packages (from anyio<5.0,>=3.0->gradio) (3.10)\n",
+            "Requirement already satisfied: sniffio>=1.1 in /usr/local/lib/python3.11/dist-packages (from anyio<5.0,>=3.0->gradio) (1.3.1)\n",
+            "Collecting starlette<1.0,>=0.40.0 (from gradio)\n",
+            "  Downloading starlette-0.46.2-py3-none-any.whl.metadata (6.2 kB)\n",
+            "Requirement already satisfied: certifi in /usr/local/lib/python3.11/dist-packages (from httpx>=0.24.1->gradio) (2025.4.26)\n",
+            "Requirement already satisfied: httpcore==1.* in /usr/local/lib/python3.11/dist-packages (from httpx>=0.24.1->gradio) (1.0.9)\n",
+            "Requirement already satisfied: h11>=0.16 in /usr/local/lib/python3.11/dist-packages (from httpcore==1.*->httpx>=0.24.1->gradio) (0.16.0)\n",
+            "Requirement already satisfied: filelock in /usr/local/lib/python3.11/dist-packages (from huggingface-hub>=0.28.1->gradio) (3.18.0)\n",
+            "Requirement already satisfied: requests in /usr/local/lib/python3.11/dist-packages (from huggingface-hub>=0.28.1->gradio) (2.32.3)\n",
+            "Requirement already satisfied: tqdm>=4.42.1 in /usr/local/lib/python3.11/dist-packages (from huggingface-hub>=0.28.1->gradio) (4.67.1)\n",
+            "Requirement already satisfied: python-dateutil>=2.8.2 in /usr/local/lib/python3.11/dist-packages (from pandas<3.0,>=1.0->gradio) (2.9.0.post0)\n",
+            "Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.11/dist-packages (from pandas<3.0,>=1.0->gradio) (2025.2)\n",
+            "Requirement already satisfied: tzdata>=2022.7 in /usr/local/lib/python3.11/dist-packages (from pandas<3.0,>=1.0->gradio) (2025.2)\n",
+            "Requirement already satisfied: annotated-types>=0.6.0 in /usr/local/lib/python3.11/dist-packages (from pydantic<2.12,>=2.0->gradio) (0.7.0)\n",
+            "Requirement already satisfied: pydantic-core==2.33.2 in /usr/local/lib/python3.11/dist-packages (from pydantic<2.12,>=2.0->gradio) (2.33.2)\n",
+            "Requirement already satisfied: typing-inspection>=0.4.0 in /usr/local/lib/python3.11/dist-packages (from pydantic<2.12,>=2.0->gradio) (0.4.1)\n",
+            "Requirement already satisfied: click>=8.0.0 in /usr/local/lib/python3.11/dist-packages (from typer<1.0,>=0.12->gradio) (8.2.1)\n",
+            "Requirement already satisfied: shellingham>=1.3.0 in /usr/local/lib/python3.11/dist-packages (from typer<1.0,>=0.12->gradio) (1.5.4)\n",
+            "Requirement already satisfied: rich>=10.11.0 in /usr/local/lib/python3.11/dist-packages (from typer<1.0,>=0.12->gradio) (13.9.4)\n",
+            "Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.11/dist-packages (from python-dateutil>=2.8.2->pandas<3.0,>=1.0->gradio) (1.17.0)\n",
+            "Requirement already satisfied: markdown-it-py>=2.2.0 in /usr/local/lib/python3.11/dist-packages (from rich>=10.11.0->typer<1.0,>=0.12->gradio) (3.0.0)\n",
+            "Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /usr/local/lib/python3.11/dist-packages (from rich>=10.11.0->typer<1.0,>=0.12->gradio) (2.19.1)\n",
+            "Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.11/dist-packages (from requests->huggingface-hub>=0.28.1->gradio) (3.4.2)\n",
+            "Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.11/dist-packages (from requests->huggingface-hub>=0.28.1->gradio) (2.4.0)\n",
+            "Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.11/dist-packages (from markdown-it-py>=2.2.0->rich>=10.11.0->typer<1.0,>=0.12->gradio) (0.1.2)\n",
+            "Downloading gradio-5.31.0-py3-none-any.whl (54.2 MB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m54.2/54.2 MB\u001b[0m \u001b[31m19.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading gradio_client-1.10.1-py3-none-any.whl (323 kB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m323.1/323.1 kB\u001b[0m \u001b[31m17.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading aiofiles-24.1.0-py3-none-any.whl (15 kB)\n",
+            "Downloading fastapi-0.115.12-py3-none-any.whl (95 kB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m95.2/95.2 kB\u001b[0m \u001b[31m6.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading groovy-0.1.2-py3-none-any.whl (14 kB)\n",
+            "Downloading python_multipart-0.0.20-py3-none-any.whl (24 kB)\n",
+            "Downloading ruff-0.11.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.5 MB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m11.5/11.5 MB\u001b[0m \u001b[31m92.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading safehttpx-0.1.6-py3-none-any.whl (8.7 kB)\n",
+            "Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)\n",
+            "Downloading starlette-0.46.2-py3-none-any.whl (72 kB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m72.0/72.0 kB\u001b[0m \u001b[31m4.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading tomlkit-0.13.2-py3-none-any.whl (37 kB)\n",
+            "Downloading uvicorn-0.34.2-py3-none-any.whl (62 kB)\n",
+            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m62.5/62.5 kB\u001b[0m \u001b[31m4.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hDownloading ffmpy-0.5.0-py3-none-any.whl (6.0 kB)\n",
+            "Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)\n",
+            "Installing collected packages: pydub, uvicorn, tomlkit, semantic-version, ruff, python-multipart, groovy, ffmpy, aiofiles, starlette, safehttpx, gradio-client, fastapi, gradio\n",
+            "Successfully installed aiofiles-24.1.0 fastapi-0.115.12 ffmpy-0.5.0 gradio-5.31.0 gradio-client-1.10.1 groovy-0.1.2 pydub-0.25.1 python-multipart-0.0.20 ruff-0.11.12 safehttpx-0.1.6 semantic-version-2.10.0 starlette-0.46.2 tomlkit-0.13.2 uvicorn-0.34.2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import gradio as gr\n",
+        "from typing import TypedDict, Annotated, List\n",
+        "from langgraph.graph import StateGraph, END\n",
+        "from langchain_core.messages import HumanMessage, AIMessage\n",
+        "from langchain_core.prompts import ChatPromptTemplate\n",
+        "from langchain_groq import ChatGroq\n",
+        "\n",
+        "class PlannerState(TypedDict):\n",
+        "    messages: Annotated[List[HumanMessage | AIMessage], \"The messages in the conversation\"]\n",
+        "    city: str\n",
+        "    interests: List[str]\n",
+        "    itinerary: str\n",
+        "\n",
+        "# Define the LLM\n",
+        "llm = ChatGroq(\n",
+        "    temperature=0,\n",
+        "    groq_api_key=\"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\",  # Replace with your actual Groq API key\n",
+        "    model_name=\"llama-3.3-70b-versatile\"\n",
+        ")\n",
+        "\n",
+        "# Define the itinerary prompt\n",
+        "itinerary_prompt = ChatPromptTemplate.from_messages([\n",
+        "    (\"system\", \"You are a helpful travel assistant. Create a day trip itinerary for {city} based on the user's interests: {interests}. Provide a brief, bulleted itinerary.\"),\n",
+        "    (\"human\", \"Create an itinerary for my day trip.\"),\n",
+        "])\n",
+        "\n",
+        "def input_city(city: str, state: PlannerState) -> PlannerState:\n",
+        "    return {\n",
+        "        **state,\n",
+        "        \"city\": city,\n",
+        "        \"messages\": state['messages'] + [HumanMessage(content=city)],\n",
+        "    }\n",
+        "\n",
+        "def input_interests(interests: str, state: PlannerState) -> PlannerState:\n",
+        "    return {\n",
+        "        **state,\n",
+        "        \"interests\": [interest.strip() for interest in interests.split(',')],\n",
+        "        \"messages\": state['messages'] + [HumanMessage(content=interests)],\n",
+        "    }\n",
+        "\n",
+        "def create_itinerary(state: PlannerState) -> str:\n",
+        "    response = llm.invoke(itinerary_prompt.format_messages(\n",
+        "        city=state['city'],\n",
+        "        interests=\", \".join(state['interests'])\n",
+        "    ))\n",
+        "    state[\"itinerary\"] = response.content\n",
+        "    state[\"messages\"] += [AIMessage(content=response.content)]\n",
+        "    return response.content\n",
+        "\n",
+        "# Define the Gradio application\n",
+        "def travel_planner(city: str, interests: str):\n",
+        "    # Initialize state\n",
+        "    state = {\n",
+        "        \"messages\": [],\n",
+        "        \"city\": \"\",\n",
+        "        \"interests\": [],\n",
+        "        \"itinerary\": \"\",\n",
+        "    }\n",
+        "\n",
+        "    # Process the city and interests inputs\n",
+        "    state = input_city(city, state)\n",
+        "    state = input_interests(interests, state)\n",
+        "\n",
+        "    # Generate the itinerary\n",
+        "    itinerary = create_itinerary(state)\n",
+        "\n",
+        "    return itinerary\n",
+        "\n",
+        "# Build the Gradio interface\n",
+        "interface = gr.Interface(\n",
+        "    fn=travel_planner,\n",
+        "    theme='Yntec/HaleyCH_Theme_Orange_Green',\n",
+        "    inputs=[\n",
+        "        gr.Textbox(label=\"Enter the city for your day trip\"),\n",
+        "        gr.Textbox(label=\"Enter your interests (comma-separated)\"),\n",
+        "    ],\n",
+        "    outputs=gr.Textbox(label=\"Generated Itinerary\"),\n",
+        "    title=\"Travel Itinerary Planner\",\n",
+        "    description=\"Enter a city and your interests to generate a personalized day trip itinerary.\"\n",
+        ")\n",
+        "\n",
+        "# Launch the Gradio application\n",
+        "interface.launch()\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 782,
+          "referenced_widgets": [
+            "8aa918d2199e46e08db01efe70efd877",
+            "46a67e9844084d69a818a9ae3dcc9d75",
+            "73709ff67c59440681f0d0e3790e0bff",
+            "85f0975fc4ae4d8d8a6f7d1c9802c84e",
+            "5099caae28c040e7ba0d0b70e8716c74",
+            "946f18493473422f8807c9b370396570",
+            "defb891f669f4021bd9bf010b84d11a2",
+            "4a2662d2a1744d92824a16ee95be4cd5",
+            "9e966190f7524b599b95d2e7c586d11f",
+            "53db03f3ca6c48489a9884d4993a0d5e",
+            "ae4c255b0bee4bf3812da3553eeec1dd"
+          ]
+        },
+        "id": "YLa7ktoPHgaZ",
+        "outputId": "30a84162-3f8c-4186-e590-a78c627d6a0a"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "/usr/local/lib/python3.11/dist-packages/huggingface_hub/utils/_auth.py:94: UserWarning: \n",
+            "The secret `HF_TOKEN` does not exist in your Colab secrets.\n",
+            "To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.\n",
+            "You will be able to reuse this secret in all of your notebooks.\n",
+            "Please note that authentication is recommended but still optional to access public models or datasets.\n",
+            "  warnings.warn(\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "theme_schema%400.0.1.json:   0%|          | 0.00/12.6k [00:00<?, ?B/s]"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "8aa918d2199e46e08db01efe70efd877"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "It looks like you are running Gradio on a hosted a Jupyter notebook. For the Gradio app to work, sharing must be enabled. Automatically setting `share=True` (you can turn this off by setting `share=False` in `launch()` explicitly).\n",
+            "\n",
+            "Colab notebook detected. To show errors in colab notebook, set debug=True in launch()\n",
+            "* Running on public URL: https://5ffb22b508647c50d0.gradio.live\n",
+            "\n",
+            "This share link expires in 1 week. For free permanent hosting and GPU upgrades, run `gradio deploy` from the terminal in the working directory to deploy to Hugging Face Spaces (https://huggingface.co/spaces)\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "<div><iframe src=\"https://5ffb22b508647c50d0.gradio.live\" width=\"100%\" height=\"500\" allow=\"autoplay; camera; microphone; clipboard-read; clipboard-write;\" frameborder=\"0\" allowfullscreen></iframe></div>"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": []
+          },
+          "metadata": {},
+          "execution_count": 21
+        }
+      ]
+    }
+  ]
+}
